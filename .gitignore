@@ -1,0 +1,10 @@
+# Files
+/*.csv
+/*.txt
+
+# Cache
+***__pycache__
+
+# ENV
+*.env
+**.env
