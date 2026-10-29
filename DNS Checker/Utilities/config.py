@@ -14,6 +14,10 @@ def GetPreviousIp():
 def UpdateEnvIp(newIp):
     scriptLocation = os.getenv("FOLDERLOCATION")
 
+    if not scriptLocation:
+        print("[DNS Checker] FOLDERLOCATION environment variable is not set.")
+        return
+
     with open(f"{scriptLocation}.env", "r") as f:
         lines = f.readlines()
 
