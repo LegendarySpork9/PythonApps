@@ -1,0 +1,33 @@
+{
+  "ao3": {
+    "username": "your_ao3_username",
+    "password": "your_ao3_password"
+  },
+  "smtp": {
+    "host": "smtp.example.com",
+    "port": 587,
+    "username": "your_email@example.com",
+    "password": "your_email_password",
+    "use_tls": true
+  },
+  "email": {
+    "from_address": "Archive Scanner <your_email@example.com>",
+    "to_address": "you@example.com",
+    "subject_prefix": "[Archive Scanner]"
+  },
+  "relationships": [
+    {
+      "site": "ao3",
+      "tag": "Character A/Character B",
+      "track_from": "2026-11-18T10:30:00Z"
+    }
+  ],
+  "storage": {
+    "mode": "json",
+    "sqlite_path": ""
+  },
+  "search": {
+    "max_pages": 2,
+    "delay_between_requests_seconds": 3
+  }
+}
