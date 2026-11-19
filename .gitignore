@@ -8,3 +8,10 @@
 # ENV
 *.env
 **.env
+
+# Archive Scanner
+config.json
+seen_works.json
+scanner.log
+scanner.log.*
+venv/
